@@ -1,0 +1,82 @@
+
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: #365fab; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Styles pour aligner les étoiles horizontalement */
+.rating {
+  display: flex; /* Utilisez un conteneur flex pour aligner les étoiles */
+  justify-content: center; /* Centre les étoiles horizontalement dans le conteneur */
+  align-items: center; /* Centre les étoiles verticalement dans le conteneur */
+}
+
+/* Styles pour ajuster la taille des étoiles */
+.fas.fa-star, .far.fa-star {
+  font-size: 24px; /* Ajustez la taille selon vos besoins */
+  margin: 5px; /* Ajoutez de l'espace entre les étoiles si nécessaire */
+}
+
+/* Styles pour une classe "kawaii" */
+.kawaii {
+  background-color: #ffccf2; /* Couleur de fond douce */
+  border-radius: 3%; /* Bords arrondis pour un aspect plus rond */
+  padding: 10px; /* Espace autour de l'élément pour le rendre plus doux */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  font-size: 20px; /* Taille de police légèrement plus grande */
+  text-align: center; /* Centre le contenu */
+  display: inline-block; /* Permet à l'élément de s'adapter au contenu */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
